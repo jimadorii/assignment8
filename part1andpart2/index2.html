@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 8 part 2</title>
+  <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+  <link href="css/styles2.css" type="text/css" rel="stylesheet">
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+        
+       $(document).ready(function(imagery){
+          $('a').click(function(e) {
+              var newclass = $(this).attr('id');
+              var oldclass = $('#full-size').attr('class');
+                  $('#full-size').removeClass(oldclass).addClass(newclass);
+                    $('full-size').fadeIn('slow');
+          });
+       });
+
+    </script>
+    
+</head>
+
+
+
+
+<body>
+         
+    <div id="full-size" class="slope">
+        &nbsp;
+    </div>
+        
+         <br />
+         
+    <div id="gallery">
+     <a href="#" id="slope">1 &nbsp;</a>
+     <a href="#" id="trees">2 &nbsp;</a>
+     <a href="#" id="drycanyon">3 &nbsp;</a>
+     <a href="#" id="logancanyon">4 &nbsp;</a>
+     <a href="#" id="range">5 &nbsp;</a>
+    </div>
+    
+    <br />
+    <br />
+    
+    
+    
+</body>
+</html>

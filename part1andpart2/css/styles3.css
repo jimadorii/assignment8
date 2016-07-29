@@ -1,0 +1,47 @@
+body{
+	margin-top: 2em;
+	font-family: 'Trebuchet MS', serif;
+	line-height: 1.6
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+ul {
+    background: lightgray;
+    border-radius: .5em .5em 0em 0em;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+    margin-top: 1em;
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 20px 45px;
+	cursor: pointer;
+    background: darkgray;
+    border-radius: .5em .5em 0em 0em;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+    border-radius: 0em 0em .5em .5em;
+}
+
+.tab-content.current{
+	display: inherit;
+    padding: 3em
+}

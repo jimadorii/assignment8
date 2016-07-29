@@ -1,0 +1,42 @@
+/* 
+main {
+    margin: 5em 0 0 5em;
+}
+ul {
+    margin: 0 0 0 -2.5em
+}
+li {
+    display: inline-block;
+    
+}
+
+*/
+
+#full-size {
+    height: 62.25em;
+    width: 36.25em;
+}
+a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: dodgerblue;
+}
+div img {
+    width: 6.5em;
+}
+div.slope {
+    background: url("../images/image1.png") no-repeat;
+}
+div.trees {
+   background: url("../images/image2.png") no-repeat; 
+}
+div.drycanyon {
+   background: url("../images/image3.png") no-repeat; 
+}
+div.logancanyon {
+   background: url("../images/image4.png") no-repeat; 
+}
+div.range {
+   background: url("../images/image5.png") no-repeat; 
+}
+
